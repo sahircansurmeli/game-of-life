@@ -3,5 +3,7 @@
 .firebaserc
 firebase.json
 
+public/pulsar.gif
+
 # Editor
 .idea/
