@@ -1,6 +1,8 @@
 # Conway's Game of Life
 HTML5 simulation of Conway's Game of Life
 https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+## Demo
+https://game-of-life-1abdc.web.app
 ## Controls
  * Click on tiles to toggle a cell's state
  * SPACE: Play/pause ticking
