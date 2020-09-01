@@ -127,8 +127,10 @@ function increaseTickSpeed() {
 }
 
 function decreaseTickSpeed() {
-  gps--;
-  resetTimer();
+  if (gps > 1) {
+    gps--;
+    resetTimer();
+  }
 }
 
 function resetTickSpeed() {
