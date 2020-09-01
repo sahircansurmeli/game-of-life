@@ -78,14 +78,15 @@ function onClick(ev) {
 }
 
 function clear() {
-  for (const cell in game.cellStates) {
-    game.removeCell(cell.split(","));
-    removeCell(cell.split(","));
-  }
+  game.clear();
+  setupCanvas();
 }
 
 function tick() {
   const changes = game.calculateNextTick();
+  if (Object.keys(changes).length === 0) {
+    stopTick();
+  }
   for (const cell in changes) {
     if (changes[cell]) {
       addCell(cell.split(","));

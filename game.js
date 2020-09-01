@@ -4,6 +4,11 @@ class Game {
     this.neighborCounts = {};
   }
 
+  clear() {
+    this.cellStates = {};
+    this.neighborCounts = {};
+  }
+
   addCell(coordinates) {
     const coordinatesString = coordinates.join(",");
     this.cellStates[coordinatesString] = true;

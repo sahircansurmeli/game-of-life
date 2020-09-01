@@ -7,19 +7,20 @@ https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
  * ARROW RIGHT: Tick one step
  * ARROW UP: Increase ticking speed
  * ARROW DOWN: Decrease ticking speed
- * T: Reset ticking speed to 2 GPS
+ * T: Reset ticking speed to 2 generations per second
  * R: Randomize the field
  * ESCAPE: Clear the field
 ## Known issues
- * Delay on clear
+ * ~~Delay on clear~~
+ * ~~Continue ticking when no live cells left~~
 ## TODO
- * Sliders
-   * Ticking speed
- * Show generation number
- * Grid
-   * Bounded/unbounded
-   * Specific size
-   * Scrollable
-   * Movable
-   * Centered to the center of the screen
- * Add JSDocs
+ - [ ] Sliders
+   - [ ] Ticking speed
+ - [ ] Show generation number
+ - [ ]  Grid
+   - [ ] Bounded/unbounded
+   - [ ] Specific size
+   - [ ] Scrollable
+   - [ ] Movable
+   - [ ] Centered to the center of the screen
+ - [ ] Add JSDocs
