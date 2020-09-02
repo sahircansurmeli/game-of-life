@@ -7,6 +7,7 @@ https://game-of-life-1abdc.web.app
 ![](https://game-of-life-1abdc.web.app/pulsar.gif)
 ## Controls
  * Click on tiles to toggle a cell's state
+ * Scroll to zoom
  * SPACE: Play/pause ticking
  * ARROW RIGHT: Tick one step
  * ARROW UP: Increase ticking speed
@@ -18,13 +19,13 @@ https://game-of-life-1abdc.web.app
  * ~~Delay on clear~~
  * ~~Continue ticking when no live cells left~~
 ## TODO
+- [X]  Grid
+   - [X] Scrollable
+     - [ ] Centered to cursor
+   - [X] Movable
+   - [X] Centered to the center of the screen
+ - [X] Randomize
  - [ ] Sliders
    - [ ] Ticking speed
  - [ ] Show generation number
- - [ ]  Grid
-   - [ ] Bounded/unbounded
-   - [ ] Specific size
-   - [ ] Scrollable
-   - [ ] Movable
-   - [ ] Centered to the center of the screen
  - [ ] Add JSDocs
